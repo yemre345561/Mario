@@ -716,7 +716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4271603427561619130, guid: 9302101173189114ba683b322a22b71f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevel
+      value: ExitApp
       objectReference: {fileID: 0}
     - target: {fileID: 4271603427561619130, guid: 9302101173189114ba683b322a22b71f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
