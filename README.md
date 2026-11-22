@@ -53,4 +53,4 @@ A pickup tagged `Coin` raises the score by 1 and plays the coin sound. Touching 
 
 A built player starts in Platformer Level, because that is the only scene in Build Settings. To see the menu, open `Menu.unity` in the editor and press Play.
 
-The menu title reads MENU. The PLAY and EXIT buttons both call `UiMenu.LoadLevel`, which loads build index 0 (Platformer Level). `UiMenu.ExitApp` calls `Application.Quit`. The menu scene leaves `ExitApp` unassigned, so the EXIT label does not quit.
+The menu title reads MENU. PLAY calls `UiMenu.LoadLevel`, which loads build index 0 (Platformer Level). EXIT calls `UiMenu.ExitApp`, which quits a built player and does nothing in the editor.
